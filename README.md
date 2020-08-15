@@ -1,6 +1,7 @@
-<h3>Solução em pesquisa para dispositivos móveis</h3>
+<h2>Solução em pesquisa para dispositivos móveis</h2>
 <p>Baseado em estudo publicado</p>
 <a href="https://drive.google.com/file/d/1pkK8JRrHdxgpKV_SUj0LNNZHdVAg3NvX/view?usp=sharing">Artigo ACEx</a>
+
 <p>Participantes do Projeto</p>
 <table>
   <tr>
@@ -26,3 +27,28 @@
     </td>
   </tr>
 </table>
+
+<h3>Orientações</h3>
+<table>
+  <tr>
+    <td align="center">
+      <p>Leve este repositório para o seu repositório usando "Fork"</p>
+      <img src="https://user-images.githubusercontent.com/25441376/90322560-2aedbd00-df2c-11ea-8678-75b9f87acda5.png" width="300">
+    </td>
+    <td align="center">
+      <p>Abra o Android Studio e selecione a seguinte opção</p>
+      <img src="https://user-images.githubusercontent.com/25441376/90322738-5c678800-df2e-11ea-848a-67857205f9d8.png" width="300">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <p>Copie o link do seu repositório para a área de transferência</p>
+      <img src="https://user-images.githubusercontent.com/25441376/90322614-b10a0380-df2c-11ea-8bd4-6f542c928163.png" width="300">
+    </td>
+    <td align="center">
+      <p>Cole o link como na imagem abaixo</p>
+      <img src="https://user-images.githubusercontent.com/25441376/90322627-eca4cd80-df2c-11ea-97d1-1b1fb0571ccc.png" width="300">
+    </td>
+  </tr>
+</table>
+<p>Após clonar seu repositório o projeto já pode ser executado em seu ambiente</p>
