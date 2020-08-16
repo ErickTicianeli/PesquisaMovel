@@ -28,7 +28,13 @@
   </tr>
 </table>
 
-<h3>Orientações</h3>
+<h2>Orientações</h2>
+
+<h3>Requisitos</h3>
+<p>Android Studio 3.5 ou superior</p>
+<p>Android 6.0 API 23 (Marshmallow)</p>
+
+<h3>Clonar Projeto</h3>
 <table>
   <tr>
     <td align="center">
