@@ -27,7 +27,7 @@
         </a>
     </td>
     <td>
-        <a href="https://www.facebook.com/pedro.ramos.7902564">
+        <a href="https://www.linkedin.com/in/pedro-ivo-3b1ba8196">
             <img src="https://scontent.fcgh17-1.fna.fbcdn.net/v/t1.0-1/s480x480/28379124_1538559689590159_7565301430837997694_n.jpg?_nc_cat=105&_nc_sid=7206a8&_nc_ohc=Mrn6XX0qWzsAX--_wmH&_nc_ht=scontent.fcgh17-1.fna&_nc_tp=7&oh=e63bc86ef0c774c90e165055dc0cbf02&oe=5F5F7C68" width="168">
         </a>
     </td>
