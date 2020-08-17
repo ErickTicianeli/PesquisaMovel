@@ -2,12 +2,12 @@
     <string name="app_name">PesquisaMovel</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Adriano Macedo</string>
+    <string name="nav_header_subtitle">adriano.santana@ads.fsa.br</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Minhas tarefas</string>
+    <string name="menu_home">Principal</string>
     <string name="menu_gallery">Histórico de prêmios</string>
     <string name="menu_slideshow">Configurações</string>
 </resources>

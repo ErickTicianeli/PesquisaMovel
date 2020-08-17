@@ -7,9 +7,9 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="br.fsa.pesquisamovel.ui.home.HomeFragment"
+        android:name="br.fsa.pesquisamovel.ui.principal.PrincipalFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_principal" />
 
     <fragment
         android:id="@+id/nav_gallery"
