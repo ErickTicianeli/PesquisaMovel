@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "586722360560",
+    "firebase_url": "https://pesquisamovel.firebaseio.com",
+    "project_id": "pesquisamovel",
+    "storage_bucket": "pesquisamovel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586722360560:android:697f9557144f8c6a57d635",
+        "android_client_info": {
+          "package_name": "br.fsa.pesquisamovel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586722360560-taqpbd0pu6i9p3vaskbdb3m2nr4d7njm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.fsa.pesquisamovel",
+            "certificate_hash": "603328b6f6ff2a6bff5ebd6db773f8e40b3500be"
+          }
+        },
+        {
+          "client_id": "586722360560-sgahvgokc7nu4ubrp5di06qog0lb9r85.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA69oEFiUe_C3Qb9yI5QtEou-rjmeDuNp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "586722360560-sgahvgokc7nu4ubrp5di06qog0lb9r85.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

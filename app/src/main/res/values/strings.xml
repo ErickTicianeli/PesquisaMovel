@@ -8,6 +8,6 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Principal</string>
-    <string name="menu_gallery">Histórico de prêmios</string>
+    <string name="menu_gallery">Histórico de ganhos</string>
     <string name="menu_slideshow">Configurações</string>
 </resources>
