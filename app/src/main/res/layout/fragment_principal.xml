@@ -52,7 +52,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerView"
+        android:id="@+id/recyclerPrincipal"
         android:layout_width="0dp"
         android:layout_height="260dp"
         android:layout_marginStart="16dp"

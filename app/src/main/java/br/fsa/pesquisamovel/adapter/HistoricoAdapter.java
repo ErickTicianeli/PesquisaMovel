@@ -20,7 +20,7 @@ import br.fsa.pesquisamovel.model.Pesquisa;
  * Classe responsável por fazer uma exibição para cada item em um conjunto de dados.
  * Faz a ponte entre os dados e a view
  */
-public class PesquisaAdapter extends RecyclerView.Adapter<PesquisaAdapter.MyViewHolder> {
+public class HistoricoAdapter extends RecyclerView.Adapter<HistoricoAdapter.MyViewHolder> {
 
     List<Pesquisa> listaPesquisas;
 
@@ -29,18 +29,19 @@ public class PesquisaAdapter extends RecyclerView.Adapter<PesquisaAdapter.MyView
      */
     public static class MyViewHolder extends RecyclerView.ViewHolder {
 
-        public TextView titulo, alerta;
+        public TextView data, valor, titulo;
 
         public MyViewHolder(@NonNull View v) {
             super(v);
 
-            titulo = v.findViewById(R.id.textTitulo);
-            alerta = v.findViewById(R.id.textAlerta);
+            data = v.findViewById(R.id.textData);
+            valor = v.findViewById(R.id.textValor);
+            titulo = v.findViewById(R.id.textTitulo2);
 
         }
     }
 
-    public PesquisaAdapter(List<Pesquisa> lista) {
+    public HistoricoAdapter(List<Pesquisa> lista) {
 
         this.listaPesquisas = lista;
     }
@@ -53,15 +54,15 @@ public class PesquisaAdapter extends RecyclerView.Adapter<PesquisaAdapter.MyView
      */
     @NonNull
     @Override
-    public PesquisaAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public HistoricoAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
 
         /**
          * Converte o XML em objeto (infla o layout)
          */
         View v = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.adapter_pesquisa, parent, false);
+                .inflate(R.layout.adapter_historico, parent, false);
 
-        MyViewHolder vh = new MyViewHolder(v);
+        HistoricoAdapter.MyViewHolder vh = new HistoricoAdapter.MyViewHolder(v);
         return vh;
     }
 
@@ -72,15 +73,16 @@ public class PesquisaAdapter extends RecyclerView.Adapter<PesquisaAdapter.MyView
      * @param position
      */
     @Override
-    public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull HistoricoAdapter.MyViewHolder holder, int position) {
 
         Pesquisa pesquisa = listaPesquisas.get(position);
 
-        Log.d("PesquisaAdapter", String.valueOf(position));
-        Log.d("PesquisaAdapter", pesquisa.toString());
+        Log.d("HistoricoAdapter", String.valueOf(position));
+        Log.d("HistoricoAdapter", pesquisa.toString());
 
+        holder.data.setText(pesquisa.getData());
+        holder.valor.setText(pesquisa.getValor());
         holder.titulo.setText(pesquisa.getTitulo());
-        holder.alerta.setText(pesquisa.getValidade());
     }
 
     /**

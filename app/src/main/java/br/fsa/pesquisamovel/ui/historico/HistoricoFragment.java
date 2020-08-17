@@ -1,4 +1,4 @@
-package br.fsa.pesquisamovel.ui.principal;
+package br.fsa.pesquisamovel.ui.historico;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,21 +14,22 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import br.fsa.pesquisamovel.R;
-import br.fsa.pesquisamovel.adapter.PesquisaAdapter;
+import br.fsa.pesquisamovel.adapter.HistoricoAdapter;
 import br.fsa.pesquisamovel.model.Pesquisa;
 
 /**
  * Criado por Adriano Macedo
  */
-public class PrincipalFragment extends Fragment {
+public class HistoricoFragment extends Fragment {
 
     private RecyclerView recyclerView;
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager layoutManager;
     private List<Pesquisa> listaPesquisa = new ArrayList<>();
 
-    public PrincipalFragment() {
+    public HistoricoFragment() {
     }
 
     /**
@@ -42,7 +43,7 @@ public class PrincipalFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
 
-        View root = inflater.inflate(R.layout.fragment_principal, container, false);
+        View root = inflater.inflate(R.layout.fragment_historico, container, false);
         this.recyclerViewConfig(root);
 
         return root;
@@ -55,7 +56,7 @@ public class PrincipalFragment extends Fragment {
     public void recyclerViewConfig(View view) {
 
         //Requisitando o uso do recyclerView
-        recyclerView = view.findViewById(R.id.recyclerPrincipal);
+        recyclerView = view.findViewById(R.id.recyclerHistorico);
 
         //Otimiza para tamanho fixo
         recyclerView.setHasFixedSize(true);
@@ -72,7 +73,7 @@ public class PrincipalFragment extends Fragment {
 //        Log.d("PrincipalFragment",this.listaPesquisa.toString());
 
         //Configurar adapter
-        mAdapter = new PesquisaAdapter(listaPesquisa);
+        mAdapter = new HistoricoAdapter(listaPesquisa);
 
         //Defini o adapdator para o recyclerView
         recyclerView.setAdapter(mAdapter);
@@ -104,4 +105,5 @@ public class PrincipalFragment extends Fragment {
         pesquisa = new Pesquisa("24 de junho de 2020","Sintomas em quarentena", "Expira em 2021","+ R$1,18");
         this.listaPesquisa.add(pesquisa);
     }
+
 }
